@@ -8,7 +8,7 @@
             <ul class="user-power">
               <li>
                 1、熟练使用
-                HTML、CSS、JavaScript，能高效率还原设计稿、动画及业务逻辑交互。
+                HTML、CSS、JavaScript，TypeScript能高效率还原设计稿、动画及业务逻辑交互。
               </li>
               <li>2、掌握使用前端框架，jQuery、 Vue、Element Ui。</li>
               <li>3、熟悉移动端开发，能兼容移动版H5、微信小程序移动版产品。</li>
@@ -18,7 +18,10 @@
                 Express、Koa能快速启动项目、独立敏捷开发。
               </li>
               <li>
-                6、在学校踏踏实实敲了几年代码，善于解决问题，对技术有深厚兴趣，爱折腾。
+                6、熟练掌握h5游戏前端开发，抗压能力强，对数字数据有较强的触觉。
+              </li>
+              <li>
+                6、在公司踏踏实实敲了几年代码，善于解决问题，对技术有深厚兴趣，不分昼夜。
               </li>
             </ul>
           </div>
@@ -32,12 +35,17 @@
                 <el-tag size="small">HTML</el-tag>
                 <el-tag size="small">CSS</el-tag>
                 <el-tag size="small" type="danger">JavaScript</el-tag>
+                <el-tag size="small">Typescript</el-tag>
               </li>
               <li>
                 Web框架：
                 <el-tag size="small" type="danger">Node.js</el-tag>
                 <el-tag size="small">Express</el-tag>
                 <el-tag size="small">Koa2</el-tag>
+              </li>
+              <li>
+                游戏框架：
+                <el-tag size="small">Egret</el-tag>
               </li>
               <li>
                 前端框架：
@@ -59,6 +67,7 @@
               <li>
                 版本管理：
                 <el-tag size="small">Git</el-tag>
+                <el-tag size="small">Svn</el-tag>
                 <el-tag size="small">Github</el-tag>
               </li>
             </ul>
@@ -70,9 +79,41 @@
       <h3 class="sub-title">项目经验</h3>
       <div class="block">
         <el-timeline>
+          <el-timeline-item 
+          type="success"
+          timestamp="2017.5~ 2019.3 中传信息科技有限公司 前端研发工程师 负责游戏前端的开发"
+          placement="top"
+          >
+              <el-row :gutter="40">
+                <el-col :lg="12">
+                  <div class="grid-content">
+                    <el-card>
+                      <h4 class="card-title">
+                        动物世界 (H5游戏项目)
+                      </h4>
+                      <p class="card-text">
+                        <span>项目描述：</span>
+                        属于游戏类型中的点击类游戏，使用egret 白鹭引擎开发 使用Typescript编程语言 ，玩家通过点击行走中的不同类型动物，死亡后获取掉落的金币；
+                        游戏功能包括：背包功能，商城功能，聊天功能，充值兑换功能，邮件功能等等
+                      </p>
+                      <p class="card-text">
+                        <span>项目成就：</span>
+                        1.游戏开发80%的代码是在写业务逻辑
+                        2.与美术沟通比较重要 图片 打击特效等随时变更
+                        3.为集中时间写业务逻辑 开发使用工具提高开发效率 切图工具 图片资源打包 后端接口导出                        
+                      </p>                      
+                      <p class="card-text">
+                        <strong>因面试是web开发岗位，故游戏项目只展示一例,建议用手机端打开</strong><br>
+                        <a href="http://www.ye63y.cn/bbtang/index.html?lc=021Cv9xW1dWWb01uciyW18fYwW1Cv9xY&pc=021YgMnx1iu98a0r0Nqx1mtTnx1YgMnC&rc=001Odlb02QN6qU0SNWa02kucb02OdlbA&state=7b22616964223a3136312c227478223a317d">项目链接>></a></p>
+                    </el-card>
+                  </div>
+                </el-col>
+              </el-row>
+          </el-timeline-item>
+
           <el-timeline-item
             type="success"
-            timestamp="2019.3 ～ 2019.5 极客学院 - 前端助教，负责教研方案执行和配合导师对就业班学员进行技术答疑。"
+            timestamp="2018.1 ～ 2019.1 广州中传信息科技有限公司。"
             placement="top"
           >
             <el-row :gutter="40">
@@ -80,11 +121,11 @@
                 <div class="grid-content">
                   <el-card>
                     <h4 class="card-title">
-                      信息发布系统（ 极客学院教研项目）
+                      信息发布系统（ 内部项目）
                     </h4>
                     <p class="card-text">
                       <span>项目描述：</span
-                      >极客学院的信息发布系统，通过后台配置的内容在前台中进行展示，支撑企业的信息发布和信息管理，运营人员会定期发布极客学院的新的动态及技术内容帮助大家及时的掌握前沿技术动态，更好的学习规划。为此需要一套信息管理发布系统来方便对他的内容进行发布、修改、删帖和分类等。
+                      >通过后台配置的内容在前台中进行展示，支撑企业的信息发布和信息管理，运营人员会定期发布公司的新的动态及营销活动内容帮助玩家及时的掌握游戏的最新动态，和游戏体现为此需要一套信息管理发布系统来方便对他的内容进行发布、修改、删帖和分类等。
                     </p>
                     <p class="card-text">
                       <span>项目成就：</span>通过本项目，对 Node.js API
@@ -100,7 +141,7 @@
                 <div class="grid-content">
                   <el-card>
                     <h4 class="card-title">
-                      销售管理系统（ 极客学院教研项目）
+                      销售管理系统（ 内部项目）
                     </h4>
                     <p class="card-text">
                       <span>项目描述：</span
@@ -166,7 +207,7 @@
           </el-timeline-item>
           <el-timeline-item
             type="success"
-            timestamp="2015.9～ 2019.6 华商学院 - 信息工程系，专攻网站开发。"
+            timestamp=""
             placement="top"
           >
             <el-row :gutter="40">
@@ -261,6 +302,11 @@ export default {
 
   .el-tag {
     margin-right: 8px;
+  }
+
+  a{
+    // text-decoration-line: none;
+    color: #333;
   }
 }
 </style>

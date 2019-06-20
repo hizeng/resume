@@ -2,28 +2,28 @@
   <el-aside class="page-sider">
     <div class="user-info">
       <div class="user-avatar">
-        <img class="user-avatar-png" src="@/assets/logo.png" />
+        <img class="user-avatar-png" src="@/assets/29827894.jpeg" />
       </div>
-      <p class="user-name">林熙</p>
-      <p class="user-status">Born to Code</p>
+      <p class="user-name">曾沛钦</p>
+      <p class="user-status">I love Code</p>
     </div>
     <div class="user-info">
       <div class="user-info-title">个人信息</div>
       <div class="user-info-text">
         <i class="el-icon-trophy"></i>
-        <span>毕业学校：惠州学院（本科）</span>
+        <span>毕业学校：广州城市职业学院</span>
       </div>
       <div class="user-info-text">
         <i class="el-icon-present"></i>
-        <span>出生年月：1990.07.14（广州）</span>
+        <span>出生年月：1992.04.30（广州）</span>
       </div>
       <div class="user-info-text">
         <i class="el-icon-position"></i>
-        <span>意向城市：广州、深圳</span>
+        <span>意向城市：广州</span>
       </div>
       <div class="user-info-text">
         <i class="el-icon-mobile-phone"></i>
-        <span>联系方式：13511111111</span>
+        <span>联系方式：15889952613</span>
       </div>
       <div class="user-info-text">
         <i class="el-icon-wind-power"></i>
@@ -31,18 +31,22 @@
       </div>
       <div class="user-info-text">
         <i class="el-icon-bank-card"></i>
-        <span>期望月薪：8～10k</span>
+        <span>期望月薪：15k</span>
       </div>
     </div>
     <div class="user-info">
-      <div class="user-info-title">实习经历</div>
+      <div class="user-info-title">工作经历</div>
       <div class="user-info-text">
         <i class="el-icon-office-building"></i>
-        <span>2019 极客学院 - 前端助教</span>
+        <span>2017-2019 广州中传信息科技有限公司</span>
       </div>
       <div class="user-info-text">
         <i class="el-icon-office-building"></i>
-        <span>2018 扎克斯科技 - 前端实习</span>
+        <span>2016-2017 极客学院</span>
+      </div>
+      <div class="user-info-text">
+        <i class="el-icon-office-building"></i>
+        <span>2014-2016 途家在线信息技术（北京）有限公司</span>
       </div>
     </div>
   </el-aside>

@@ -103,8 +103,10 @@
                         3.为集中时间写业务逻辑 开发使用工具提高开发效率 切图工具 图片资源打包 后端接口导出                        
                       </p>                      
                       <p class="card-text">
-                        <strong>因面试是web开发岗位，故游戏项目只展示一例,建议用手机端打开</strong><br>
-                        <a href="http://www.ye63y.cn/bbtang/index.html?lc=021Cv9xW1dWWb01uciyW18fYwW1Cv9xY&pc=021YgMnx1iu98a0r0Nqx1mtTnx1YgMnC&rc=001Odlb02QN6qU0SNWa02kucb02OdlbA&state=7b22616964223a3136312c227478223a317d">项目链接>></a></p>
+                        <strong>因面试是web开发岗位，故游戏项目只展示一例,复制链接到微信端打开</strong><br>
+                        <strong class="card-link">http://www.czjyf01.cn/bbtang/index.html?lc=061QfnAk2lF5jD0qHXAk2SrjAk2QfnAZ&pc=001W0Inb1hq5ox04ufob1fGEnb1W0InB&rc=001t3cKM09f2ib2liDJM05ByKM0t3cKH&state=7b22616964223a33302c227478223a317d</strong>
+                        <!-- <a href="http://www.czjyf01.cn/bbtang/index.html?lc=061QfnAk2lF5jD0qHXAk2SrjAk2QfnAZ&pc=001W0Inb1hq5ox04ufob1fGEnb1W0InB&rc=001t3cKM09f2ib2liDJM05ByKM0t3cKH&state=7b22616964223a33302c227478223a317d">项目链接>></a> -->
+                      </p>
                     </el-card>
                   </div>
                 </el-col>
@@ -289,7 +291,6 @@ export default {
       display: block;
     }
   }
-
   .user-power {
     list-style: none;
   }

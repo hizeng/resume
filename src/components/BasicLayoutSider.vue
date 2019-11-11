@@ -31,7 +31,7 @@
       </div>
       <div class="user-info-text">
         <i class="el-icon-bank-card"></i>
-        <span>期望月薪：15k</span>
+        <span>期望月薪：8k</span>
       </div>
     </div>
     <div class="user-info">

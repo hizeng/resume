@@ -27,7 +27,7 @@
           </div>
         </el-col>
         <el-col :lg="12">
-          <div class="grid-content">
+          <div class="grid-content"> 
             <h3 class="sub-title">技能清单</h3>
             <ul class="user-power">
               <li>
@@ -161,7 +161,7 @@
           </el-timeline-item>
           <el-timeline-item
             type="success"
-            timestamp="2018.8～ 2019.3 扎克斯科技 - 前端研发，负责项目营销活动页和专题页等展示型网页开发。"
+            timestamp="2016.8～ 2017.3 扎克斯科技 - 前端研发，负责项目营销活动页和专题页等展示型网页开发。"
             placement="top"
           >
             <el-row :gutter="40">
